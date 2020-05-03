@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browse": "browserify script.js -o bundle.js",
+    "watch": "watchify script.js -o bundle.js -v",
+    "vue": "browserify script.js -o bundle.js -t vueify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.6",
+    "vueify": "^9.4.1",
+    "watchify": "^3.11.1"
+  }
+}
