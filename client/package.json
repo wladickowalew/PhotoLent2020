@@ -15,6 +15,7 @@
   "dependencies": {
     "browserify": "^16.5.1",
     "vue": "^2.6.11",
+    "vue-jwt-mongo": "^1.5.0",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.1.6",
     "vueify": "^9.4.1",
