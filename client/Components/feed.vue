@@ -1,5 +1,15 @@
 <template>
 	<div>
+		<header-m></header-m>
 		<p>Страница с Фотками</p>
 	</div>
 </template>
+
+<script>
+	let Header = require("./header.vue");
+	module.exports={
+		components:{
+			headerM: Header
+		}
+	}
+</script>
