@@ -1,9 +1,9 @@
-<style scoped>
+<style>
 	*{
 		font-size: 25px;
 	}
 	#photolent{
-		margin-top: 250px;
+		margin-top: 500px;
 		background-color: green;
 	}
 </style>

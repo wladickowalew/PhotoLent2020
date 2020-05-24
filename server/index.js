@@ -1,7 +1,7 @@
 let express = require("express");
 let vjm     = require("vue-jwt-mongo");
 let multer  = require("multer");
-let upload  = multer({dest: "./data"});
+let upload  = multer({dest: "../client/data"});
 let mongoClient = require("mongodb").MongoClient;
 let url = "mongodb://localhost", dbName = "photofeed";
 

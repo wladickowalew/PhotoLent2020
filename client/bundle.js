@@ -14,7 +14,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   }
 })()}
 },{"vue":21,"vue-hot-reload-api":16}],2:[function(require,module,exports){
-var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("*[data-v-a0aa04f4]{\n\tfont-size: 25px;\n}\n#photolent[data-v-a0aa04f4]{\n\tmargin-top: 250px;\n\tbackground-color: green;\n}")
+var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("*{\n\tfont-size: 25px;\n}\n#photolent{\n\tmargin-top: 500px;\n\tbackground-color: green;\n}")
 ;(function(){
 //
 //
@@ -61,7 +61,6 @@ var __vue__options__ = (typeof module.exports === "function"? module.exports.opt
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
 __vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header-m'),_vm._v(" "),_c('div',{attrs:{"id":"photolent"}},_vm._l((_vm.records),function(record){return _c('photo-card',{attrs:{"record":record}})}),1)],1)}
 __vue__options__.staticRenderFns = []
-__vue__options__._scopeId = "data-v-a0aa04f4"
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -282,7 +281,7 @@ module.exports = { props: ["record"]};
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",staticStyle:{"width":"18rem"}},[_c('div',{staticClass:"card-header"},[_c('h5',{staticClass:"card-title"},[_vm._v(_vm._s(_vm.record.user))])]),_vm._v(" "),_c('img',{staticClass:"card-img-top",attrs:{"b-bind:src":"'./data/' + record.file"}})])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",staticStyle:{"width":"18rem"}},[_c('div',{staticClass:"card-header"},[_c('h5',{staticClass:"card-title"},[_vm._v(_vm._s(_vm.record.user))])]),_vm._v(" "),_c('img',{staticClass:"card-img-top",attrs:{"src":'./data/' + _vm.record.file}})])}
 __vue__options__.staticRenderFns = []
 __vue__options__._scopeId = "data-v-d74778ac"
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")

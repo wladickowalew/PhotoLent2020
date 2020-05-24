@@ -13,7 +13,7 @@
 		<div class="card-header">
 			<h5 class="card-title">{{record.user}}</h5>
 		</div>
-		<img b-bind:src="'./data/' + record.file" class="card-img-top">
+		<img v-bind:src="'./data/' + record.file" class="card-img-top">
 	</div>
 	
 </template>
